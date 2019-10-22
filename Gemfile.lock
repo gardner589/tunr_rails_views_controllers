@@ -72,7 +72,6 @@ GEM
     mime-types (2.6.1)
     mini_portile2 (2.4.0)
     minitest (5.12.2)
-    multi_json (1.11.2)
     nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)
     pg (0.18.2)
@@ -132,7 +131,7 @@ GEM
       coffee-rails
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
-    uglifier (2.7.1)
+    uglifier (2.7.2)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
     web-console (3.3.0)
@@ -146,7 +145,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.2.2)
-  jbuilder (~> 2.0)
+  jbuilder (~> 2.9)
   jquery-rails
   pg
   rails (= 4.2.11.1)
