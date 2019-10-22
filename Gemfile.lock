@@ -72,7 +72,6 @@ GEM
     mime-types (2.6.1)
     mini_portile2 (2.4.0)
     minitest (5.12.2)
-    multi_json (1.11.2)
     nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)
     pg (0.18.2)
@@ -128,8 +127,9 @@ GEM
     thor (0.20.3)
     thread_safe (0.3.6)
     tilt (2.0.10)
-    turbolinks (2.5.3)
-      coffee-rails
+    turbolinks (5.2.1)
+      turbolinks-source (~> 5.2)
+    turbolinks-source (5.2.0)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
     uglifier (2.7.1)
@@ -146,7 +146,7 @@ PLATFORMS
 DEPENDENCIES
   byebug
   coffee-rails (~> 4.2.2)
-  jbuilder (~> 2.0)
+  jbuilder (~> 2.9)
   jquery-rails
   pg
   rails (= 4.2.11.1)
